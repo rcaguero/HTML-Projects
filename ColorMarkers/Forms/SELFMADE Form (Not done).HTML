@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive Survey Form</title>
+    <h1 id="title">Welcome to MY survey!</h1>
+    <p id="description">This survey is gonna be a sample project for my freeCodeCamp certification...</p>
+    </head>
+    <body>
+      <form id="survey-form">
+        <label id="name-label">Name:</label>
+        <input id="name" type="text" required placeholder="Enter your name">
+        </input>
+        <label id="email-label">Email:</label>
+        <input id="email" type="email" required placeholder="Enter your email">
+        </input>
+        <label id="number-label">Age (Non-Optional):</label>
+        <input id="number" type="number" min="30", max="150" placeholder="Age">
+        </input>
+        <label>Which Option describes your current role?</label>
+        <select id="dropdown">
+          <option value="0">(Choose an option)</option>
+          <option value="1">
+            Intern
+            </option>
+            <option value = "2">
+              Senior
+              </option>
+          </select>
+      <label>Would you work at this company even if you did not get paid?</label>
+      <label><input type="radio" name="buttons" value="0"/>YES</label>
+      <label><input type="radio" name="buttons" value="1"/>NO</label>
+
+    <label>What would you want from us?</label><label><input type="checkbox" class="box" value="0">More Money</label><label>
+    <input type="checkbox" class="box" value="1">Less Work</label>
+    <label>Please leave additional comments here below:</label><textarea placeholder="I want to stay because..."></textarea>
+    <label>When done, click this --> <input id="submit" type="submit"></label>
+        </form>
+      </body>
+  </html>
