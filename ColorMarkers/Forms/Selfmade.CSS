@@ -1,0 +1,56 @@
+body{
+  background-color: rgb(0,50,150);
+}
+
+h1{
+  text-align:center;
+  color: white;
+  font-family: times;
+  text-shadow: 4px 2px black;
+}
+
+p{
+  color: white;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+label{
+  display: block;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+}
+
+form{
+  display: block;
+  text-align: center;
+}
+
+.box{
+  color: white;
+}
+
+input[type="text"]{
+  border: 2px solid black;
+  width: 150px;
+}
+
+input[type="email"]{
+  border: 2px solid black;
+  width: 150px;
+}
+
+input[type="number"]{
+  border: 2px solid black;
+  width: 150px;
+}
+
+select{
+  border: 2px solid black;
+}
+
+textarea {
+  border: 2px solid black;
+  padding: 5px;
+}
