@@ -1,0 +1,50 @@
+body{
+  background-color: #000000;
+}
+
+h1{
+  color: white;
+  text-align: center;
+}
+
+#img-div{
+  text-align: center;
+}
+
+#img-caption{
+  color: white;
+  text-align: center;
+}
+
+*{
+    font-family: Sans-serif, arial;
+}
+
+#image{
+  width: 80%;
+  border: solid 3px white;
+  display: block;
+  max-width: 100%;
+  text-align: center;
+}
+
+#img-caption{
+  padding-top: 20px;
+}
+
+#tribute-info{
+  color: white;
+  text-align: center;
+  display: block;
+  
+}
+
+#tribute-link{
+  color: yellow;
+  padding-left: 50px;
+}
+
+.div1 img{
+  text-align: center;
+  margin: 0 auto;
+}
